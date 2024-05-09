@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Pragma" content="no-cache" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+    <!-- fonts style -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--owl slider stylesheet -->
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+    <!-- font awesome style -->
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="css/responsive.css" rel="stylesheet" />
+    <title>Citrix Login</title>
+</head>
+<div class="hero_area">
+
+    <div class="hero_bg_box">
+        <div class="bg_img_box">
+            <img src="images/hero-bg.png" alt="">
+        </div>
+    </div>
+
+    <!-- header section strats -->
+    <header class="header_section">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg custom_nav-container ">
+                <a class="navbar-brand" href="index.html">
+                    <span>
+                        Finexo
+                    </span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class=""> </span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav  ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"> About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="why.html">Why Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="team.html">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html"> <i class="fa fa-user" aria-hidden="true"></i>
+                                Login</a>
+                        </li>
+
+                        <form class="form-inline">
+                            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </form>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section class="slider_section ">
+        <div id="customCarousel1" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container ">
+                        <div class="row">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-4 ">
+
+                                <body class="ns_login_body">
+                                    <div id="ns_user_pass_section">
+                                        <div class="ns_grid_text user_name">
+                                            <span>User Name</span>
+
+                                            <label for="username" style="display: none;">User Name</label>
+                                            <input type="text" id="username" name="username" class="login_input"
+                                                onfocus=1>
+                                        </div>
+                                        <div class="ns_grid_text login_password">
+                                            <span>Password</span>
+
+                                            <label for="password" style="display: none;">Password</label>
+                                            <input type="password" name="password" id="password" class="login_input">
+                                        </div>
+                                        <div style="display:none">
+                                            <label for="eula-accepted" style="display: none;">EULA</label>
+                                            <input type="checkbox" name="eula" id="eula-accepted" value="TRUE">
+                                        </div>
+                                        <div class="login_button_cell">
+                                            <label for="url" style="display: none;">URL</label>
+                                            <input type="hidden" name="url" id="url" value="">
+
+                                            <label for="timezone_offset" style="display: none;">Timezone Offset</label>
+                                            <input type="hidden" name="timezone_offset" id="timezone_offset" value="">
+
+                                            <button type="submit" class="login_button rdx_blue_button"><span
+                                                    id="logintext">Log In</span><span id="loadingdots"></span></button>
+                                        </div>
+                                    </div>
+                            </div>
+                            </body>
+                            <div class="col-md-4 "></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+</html>
